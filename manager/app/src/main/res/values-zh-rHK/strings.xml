@@ -32,6 +32,10 @@
     <string name="sulog_enable_action">啟用</string>
     <string name="sulog_filter_title">按類型篩選</string>
     <string name="sulog_clean_title">清除日誌</string>
+    <string name="sulog_filter_root_execve">Root execve</string>
+    <string name="sulog_filter_sucompat">傳統 SU</string>
+    <string name="sulog_filter_ioctl_grant_root">授予 Root</string>
+    <string name="sulog_filter_daemon_restart">常駐程序重啟</string>
     <string name="module_failed_to_enable">無法啟用模組：%s</string>
     <string name="module_failed_to_disable">無法停用模組：%s</string>
     <string name="module_empty">未安裝模組</string>
@@ -91,6 +95,7 @@
     <string name="profile_namespace_individual">獨立</string>
     <string name="profile_groups">Groups</string>
     <string name="profile_capabilities">Capabilities</string>
+    <string name="profile_flags">旗標</string>
     <string name="profile_selinux_context">SELinux</string>
     <string name="profile_umount_modules">卸載模組（Umount）</string>
     <string name="failed_to_update_app_profile">無法為 %s 更新 App Profile</string>
@@ -297,6 +302,8 @@
     <string name="profile_flags_desc_no_new_privs">防止在此 Root Profile 的上下文中透過 KernelSU 進一步提升權限</string>
     <string name="module_shortcut_copy_scheme">複製 URL scheme</string>
     <string name="module_shortcut_scheme_copied">已複製 URL scheme</string>
+    <string name="nav_rail_expand">展開導航欄</string>
+    <string name="nav_rail_collapse">收起導航欄</string>
     <string name="settings_navigation_badge">底部欄標記</string>
     <string name="settings_navigation_badge_summary">在底部欄顯示已授權 App 及已啟用模組數量</string>
 </resources>
